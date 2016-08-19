@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E220E2AE1CEF0DD800517EF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E220E2AD1CEF0DD800517EF3 /* AppDelegate.swift */; };
+		E220E2B01CEF0DD900517EF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E220E2AF1CEF0DD900517EF3 /* ViewController.swift */; };
+		E220E2B31CEF0DD900517EF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E220E2B11CEF0DD900517EF3 /* Main.storyboard */; };
+		E220E2B51CEF0DD900517EF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E220E2B41CEF0DD900517EF3 /* Assets.xcassets */; };
+		E220E2B81CEF0DD900517EF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E220E2B61CEF0DD900517EF3 /* LaunchScreen.storyboard */; };
+		E220E2D21CEF0DF200517EF3 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = E220E2C11CEF0DF200517EF3 /* down.png */; };
+		E220E2D31CEF0DF200517EF3 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = E220E2C21CEF0DF200517EF3 /* up.png */; };
+		E220E2D41CEF0DF200517EF3 /* beijing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E220E2C41CEF0DF200517EF3 /* beijing.jpg */; };
+		E220E2D51CEF0DF200517EF3 /* Brisbane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E220E2C51CEF0DF200517EF3 /* Brisbane.jpg */; };
+		E220E2D61CEF0DF200517EF3 /* CityofLosAngeles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E220E2C61CEF0DF200517EF3 /* CityofLosAngeles.jpg */; };
+		E220E2D71CEF0DF200517EF3 /* CityofVancouver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E220E2C71CEF0DF200517EF3 /* CityofVancouver.jpg */; };
+		E220E2D81CEF0DF200517EF3 /* guangzhou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E220E2C81CEF0DF200517EF3 /* guangzhou.jpg */; };
+		E220E2D91CEF0DF200517EF3 /* Melbourne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E220E2C91CEF0DF200517EF3 /* Melbourne.jpg */; };
+		E220E2DA1CEF0DF200517EF3 /* Montreal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E220E2CA1CEF0DF200517EF3 /* Montreal.jpg */; };
+		E220E2DB1CEF0DF200517EF3 /* NewYork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E220E2CB1CEF0DF200517EF3 /* NewYork.jpg */; };
+		E220E2DC1CEF0DF200517EF3 /* SanFrancisco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E220E2CC1CEF0DF200517EF3 /* SanFrancisco.jpg */; };
+		E220E2DD1CEF0DF200517EF3 /* shanghai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E220E2CD1CEF0DF200517EF3 /* shanghai.jpg */; };
+		E220E2DE1CEF0DF200517EF3 /* shenzhen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E220E2CE1CEF0DF200517EF3 /* shenzhen.jpg */; };
+		E220E2DF1CEF0DF200517EF3 /* Sydney.png in Resources */ = {isa = PBXBuildFile; fileRef = E220E2CF1CEF0DF200517EF3 /* Sydney.png */; };
+		E220E2E01CEF0DF200517EF3 /* Toronto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E220E2D01CEF0DF200517EF3 /* Toronto.jpg */; };
+		E220E2E11CEF0DF200517EF3 /* Washington.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E220E2D11CEF0DF200517EF3 /* Washington.jpeg */; };
+		E220E2E31CEF10E300517EF3 /* cityPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = E220E2E21CEF10E300517EF3 /* cityPlist.plist */; };
+		E2ED3EFB1CF0420500FDA3F8 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ED3EFA1CF0420500FDA3F8 /* MyViewController.swift */; };
+		E2ED3EFD1CF0462600FDA3F8 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ED3EFC1CF0462600FDA3F8 /* MyTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E220E2AA1CEF0DD800517EF3 /* MySwift_table_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwift_table_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E220E2AD1CEF0DD800517EF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E220E2AF1CEF0DD900517EF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E220E2B21CEF0DD900517EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E220E2B41CEF0DD900517EF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E220E2B71CEF0DD900517EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E220E2B91CEF0DD900517EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E220E2C11CEF0DF200517EF3 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		E220E2C21CEF0DF200517EF3 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		E220E2C41CEF0DF200517EF3 /* beijing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beijing.jpg; sourceTree = "<group>"; };
+		E220E2C51CEF0DF200517EF3 /* Brisbane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Brisbane.jpg; sourceTree = "<group>"; };
+		E220E2C61CEF0DF200517EF3 /* CityofLosAngeles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CityofLosAngeles.jpg; sourceTree = "<group>"; };
+		E220E2C71CEF0DF200517EF3 /* CityofVancouver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CityofVancouver.jpg; sourceTree = "<group>"; };
+		E220E2C81CEF0DF200517EF3 /* guangzhou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guangzhou.jpg; sourceTree = "<group>"; };
+		E220E2C91CEF0DF200517EF3 /* Melbourne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Melbourne.jpg; sourceTree = "<group>"; };
+		E220E2CA1CEF0DF200517EF3 /* Montreal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Montreal.jpg; sourceTree = "<group>"; };
+		E220E2CB1CEF0DF200517EF3 /* NewYork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NewYork.jpg; sourceTree = "<group>"; };
+		E220E2CC1CEF0DF200517EF3 /* SanFrancisco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SanFrancisco.jpg; sourceTree = "<group>"; };
+		E220E2CD1CEF0DF200517EF3 /* shanghai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shanghai.jpg; sourceTree = "<group>"; };
+		E220E2CE1CEF0DF200517EF3 /* shenzhen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shenzhen.jpg; sourceTree = "<group>"; };
+		E220E2CF1CEF0DF200517EF3 /* Sydney.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sydney.png; sourceTree = "<group>"; };
+		E220E2D01CEF0DF200517EF3 /* Toronto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Toronto.jpg; sourceTree = "<group>"; };
+		E220E2D11CEF0DF200517EF3 /* Washington.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Washington.jpeg; sourceTree = "<group>"; };
+		E220E2E21CEF10E300517EF3 /* cityPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cityPlist.plist; sourceTree = "<group>"; };
+		E2ED3EFA1CF0420500FDA3F8 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		E2ED3EFC1CF0462600FDA3F8 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E220E2A71CEF0DD800517EF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E220E2A11CEF0DD800517EF3 = {
+			isa = PBXGroup;
+			children = (
+				E220E2AC1CEF0DD800517EF3 /* MySwift_table_Test */,
+				E220E2AB1CEF0DD800517EF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E220E2AB1CEF0DD800517EF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E220E2AA1CEF0DD800517EF3 /* MySwift_table_Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E220E2AC1CEF0DD800517EF3 /* MySwift_table_Test */ = {
+			isa = PBXGroup;
+			children = (
+				E220E2BF1CEF0DF200517EF3 /* Resources */,
+				E220E2AD1CEF0DD800517EF3 /* AppDelegate.swift */,
+				E220E2AF1CEF0DD900517EF3 /* ViewController.swift */,
+				E220E2B11CEF0DD900517EF3 /* Main.storyboard */,
+				E220E2B41CEF0DD900517EF3 /* Assets.xcassets */,
+				E220E2B61CEF0DD900517EF3 /* LaunchScreen.storyboard */,
+				E220E2B91CEF0DD900517EF3 /* Info.plist */,
+				E2ED3EFA1CF0420500FDA3F8 /* MyViewController.swift */,
+			);
+			path = MySwift_table_Test;
+			sourceTree = "<group>";
+		};
+		E220E2BF1CEF0DF200517EF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E220E2E21CEF10E300517EF3 /* cityPlist.plist */,
+				E220E2C01CEF0DF200517EF3 /* icons */,
+				E220E2C31CEF0DF200517EF3 /* images */,
+				E2ED3EFC1CF0462600FDA3F8 /* MyTableViewCell.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E220E2C01CEF0DF200517EF3 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				E220E2C11CEF0DF200517EF3 /* down.png */,
+				E220E2C21CEF0DF200517EF3 /* up.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		E220E2C31CEF0DF200517EF3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E220E2C41CEF0DF200517EF3 /* beijing.jpg */,
+				E220E2C51CEF0DF200517EF3 /* Brisbane.jpg */,
+				E220E2C61CEF0DF200517EF3 /* CityofLosAngeles.jpg */,
+				E220E2C71CEF0DF200517EF3 /* CityofVancouver.jpg */,
+				E220E2C81CEF0DF200517EF3 /* guangzhou.jpg */,
+				E220E2C91CEF0DF200517EF3 /* Melbourne.jpg */,
+				E220E2CA1CEF0DF200517EF3 /* Montreal.jpg */,
+				E220E2CB1CEF0DF200517EF3 /* NewYork.jpg */,
+				E220E2CC1CEF0DF200517EF3 /* SanFrancisco.jpg */,
+				E220E2CD1CEF0DF200517EF3 /* shanghai.jpg */,
+				E220E2CE1CEF0DF200517EF3 /* shenzhen.jpg */,
+				E220E2CF1CEF0DF200517EF3 /* Sydney.png */,
+				E220E2D01CEF0DF200517EF3 /* Toronto.jpg */,
+				E220E2D11CEF0DF200517EF3 /* Washington.jpeg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E220E2A91CEF0DD800517EF3 /* MySwift_table_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E220E2BC1CEF0DD900517EF3 /* Build configuration list for PBXNativeTarget "MySwift_table_Test" */;
+			buildPhases = (
+				E220E2A61CEF0DD800517EF3 /* Sources */,
+				E220E2A71CEF0DD800517EF3 /* Frameworks */,
+				E220E2A81CEF0DD800517EF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySwift_table_Test;
+			productName = MySwift_table_Test;
+			productReference = E220E2AA1CEF0DD800517EF3 /* MySwift_table_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E220E2A21CEF0DD800517EF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = fengei;
+				TargetAttributes = {
+					E220E2A91CEF0DD800517EF3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = E220E2A51CEF0DD800517EF3 /* Build configuration list for PBXProject "MySwift_table_Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E220E2A11CEF0DD800517EF3;
+			productRefGroup = E220E2AB1CEF0DD800517EF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E220E2A91CEF0DD800517EF3 /* MySwift_table_Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E220E2A81CEF0DD800517EF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E220E2D31CEF0DF200517EF3 /* up.png in Resources */,
+				E220E2B81CEF0DD900517EF3 /* LaunchScreen.storyboard in Resources */,
+				E220E2D71CEF0DF200517EF3 /* CityofVancouver.jpg in Resources */,
+				E220E2B51CEF0DD900517EF3 /* Assets.xcassets in Resources */,
+				E220E2D81CEF0DF200517EF3 /* guangzhou.jpg in Resources */,
+				E220E2DA1CEF0DF200517EF3 /* Montreal.jpg in Resources */,
+				E220E2D91CEF0DF200517EF3 /* Melbourne.jpg in Resources */,
+				E220E2DC1CEF0DF200517EF3 /* SanFrancisco.jpg in Resources */,
+				E220E2D51CEF0DF200517EF3 /* Brisbane.jpg in Resources */,
+				E220E2E01CEF0DF200517EF3 /* Toronto.jpg in Resources */,
+				E220E2DB1CEF0DF200517EF3 /* NewYork.jpg in Resources */,
+				E220E2B31CEF0DD900517EF3 /* Main.storyboard in Resources */,
+				E220E2E11CEF0DF200517EF3 /* Washington.jpeg in Resources */,
+				E220E2D41CEF0DF200517EF3 /* beijing.jpg in Resources */,
+				E220E2E31CEF10E300517EF3 /* cityPlist.plist in Resources */,
+				E220E2D61CEF0DF200517EF3 /* CityofLosAngeles.jpg in Resources */,
+				E220E2DD1CEF0DF200517EF3 /* shanghai.jpg in Resources */,
+				E220E2DE1CEF0DF200517EF3 /* shenzhen.jpg in Resources */,
+				E220E2D21CEF0DF200517EF3 /* down.png in Resources */,
+				E220E2DF1CEF0DF200517EF3 /* Sydney.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E220E2A61CEF0DD800517EF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E220E2B01CEF0DD900517EF3 /* ViewController.swift in Sources */,
+				E2ED3EFD1CF0462600FDA3F8 /* MyTableViewCell.swift in Sources */,
+				E2ED3EFB1CF0420500FDA3F8 /* MyViewController.swift in Sources */,
+				E220E2AE1CEF0DD800517EF3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E220E2B11CEF0DD900517EF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E220E2B21CEF0DD900517EF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E220E2B61CEF0DD900517EF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E220E2B71CEF0DD900517EF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E220E2BA1CEF0DD900517EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E220E2BB1CEF0DD900517EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E220E2BD1CEF0DD900517EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MySwift_table_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fengei.mobile.MySwift-table-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E220E2BE1CEF0DD900517EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MySwift_table_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fengei.mobile.MySwift-table-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E220E2A51CEF0DD800517EF3 /* Build configuration list for PBXProject "MySwift_table_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E220E2BA1CEF0DD900517EF3 /* Debug */,
+				E220E2BB1CEF0DD900517EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E220E2BC1CEF0DD900517EF3 /* Build configuration list for PBXNativeTarget "MySwift_table_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E220E2BD1CEF0DD900517EF3 /* Debug */,
+				E220E2BE1CEF0DD900517EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E220E2A21CEF0DD800517EF3 /* Project object */;
+}
