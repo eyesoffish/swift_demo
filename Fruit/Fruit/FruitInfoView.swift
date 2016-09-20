@@ -14,13 +14,13 @@ class FruitInfoView: UIView {
     private var titlelable:UILabel!
     private var btnClose:UIButton!
     private var scrollView:UIScrollView!
+    private var textView:UITextView!
     var text:String?{
         get{
-            return "label"
+            return self.textView.text
         }
         set{
-            let tempString = newValue?.stringByReplacingOccurrencesOfString("None", withString: "")
-            settingString(tempString!)
+            self.textView.text = newValue
         }
     }
     var image:UIImage?{
@@ -72,14 +72,15 @@ class FruitInfoView: UIView {
         btnClose.layer.shadowOpacity = 1
         btnClose.addTarget(self, action: #selector(FruitInfoView.btnclick), forControlEvents: UIControlEvents.TouchUpInside)
         
-        scrollView = UIScrollView()
-        scrollView.frame = BQAdaptationFrame(10, CGRectGetMaxY(self.titlelable.frame), CGRectGetWidth(self.frame)-20, CGRectGetHeight(self.frame)-180)
-        scrollView.showsHorizontalScrollIndicator = false
-        scrollView.contentOffset = CGPoint(x: 0, y: 0)
+        textView = UITextView()
+        textView.frame = BQAdaptationFrame(10, CGRectGetMaxY(self.titlelable.frame), CGRectGetWidth(self.frame)-20, CGRectGetHeight(self.frame)-180)
+        textView.font = UIFont.systemFontOfSize(17)
+        textView.backgroundColor = UIColor.clearColor()
+        textView.editable = false
         
         self.addSubview(backImage)
-        self.addSubview(scrollView)
         self.addSubview(titlelable)
+        self.addSubview(textView)
         self.addSubview(btnClose)
     }
     func addEleffer(myView:UIView,rect:CGRect){
@@ -92,26 +93,5 @@ class FruitInfoView: UIView {
     func btnclick()
     {
         self.removeFromSuperview()
-    }
-    func settingString(string:String){
-        let tempString = string.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
-        let tempArray:Array = (tempString.componentsSeparatedByString("。"))
-        var maxY:CGFloat = 0
-        var labelMaxY:CGFloat = 0
-        let scrollHeight = CGFloat(tempArray.count)
-        scrollView.contentSize = BQadaptationSize(0, scrollHeight*60)
-        for i in tempArray
-        {
-            let tempLabel = UILabel()
-            tempLabel.frame = BQAdaptationFrame(0, CGRectGetMaxY(self.titlelable.frame)+maxY*60+labelMaxY, CGRectGetWidth(self.frame)-40, 40)
-            tempLabel.font = UIFont.systemFontOfSize(20)
-            tempLabel.text = i
-            tempLabel.lineBreakMode = NSLineBreakMode.ByWordWrapping
-            tempLabel.numberOfLines=0
-            tempLabel.sizeToFit()
-            self.scrollView.addSubview(tempLabel)
-            maxY = maxY + 1
-            labelMaxY = CGRectGetHeight(tempLabel.frame)
-        }
     }
 }

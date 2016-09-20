@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E6A0E2E6F5B7784CB401355BAFE36BBBC88831E1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E6A0E2E6F5B7784CB401355BAFE36BBBC88831E1" : 0,
+    "A5F3691E32B22B56B0F9F2D4FB0A7071908F288F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5D506D0C-9EC9-4FFA-88C9-3E06CEC4DDBE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E6A0E2E6F5B7784CB401355BAFE36BBBC88831E1" : "first_airport_game\/",
+    "A5F3691E32B22B56B0F9F2D4FB0A7071908F288F" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "gameTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "gameTest\/gameTest.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eyesoffish\/swift_demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A5F3691E32B22B56B0F9F2D4FB0A7071908F288F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eyesoffish\/first_airport_game.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E6A0E2E6F5B7784CB401355BAFE36BBBC88831E1"
+    }
+  ]
+}
