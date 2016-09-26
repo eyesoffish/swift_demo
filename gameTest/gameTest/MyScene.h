@@ -14,7 +14,15 @@
 - (void) getScore:(int)score;
 
 @end
+//monsterModel
+typedef NS_ENUM(NSInteger){
+    monsterSimple,
+    monsterDiffcult,
+    monsterFuck
+}monserSizeModel;
 @interface MyScene : SKScene
 
 @property (nonatomic,weak) id<GameOver> overdelegate;
+- (id) initWithSize:(CGSize)size airportName:(NSString *)airportName;
+@property (nonatomic,assign) monserSizeModel monsterSize;// 妖怪大小
 @end

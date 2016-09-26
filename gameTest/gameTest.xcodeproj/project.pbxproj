@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E20ADCAB1D93AFF000821976 /* BuyAirportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20ADCAA1D93AFF000821976 /* BuyAirportViewController.m */; };
+		E20ADCAE1D93C70C00821976 /* LYScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E20ADCAD1D93C70C00821976 /* LYScrollView.m */; };
 		E26320271D90D87E006DF0F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E26320261D90D87E006DF0F7 /* main.m */; };
 		E263202A1D90D87E006DF0F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E26320291D90D87E006DF0F7 /* AppDelegate.m */; };
-		E263202C1D90D87E006DF0F7 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E263202B1D90D87E006DF0F7 /* art.scnassets */; };
 		E263202F1D90D87E006DF0F7 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E263202E1D90D87E006DF0F7 /* GameViewController.m */; };
 		E26320321D90D87E006DF0F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26320301D90D87E006DF0F7 /* Main.storyboard */; };
 		E26320341D90D87E006DF0F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26320331D90D87E006DF0F7 /* Assets.xcassets */; };
 		E26320371D90D87E006DF0F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26320351D90D87E006DF0F7 /* LaunchScreen.storyboard */; };
 		E26320421D90E244006DF0F7 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E26320411D90E244006DF0F7 /* MyScene.m */; };
-		E26320461D90E319006DF0F7 /* airport.png in Resources */ = {isa = PBXBuildFile; fileRef = E26320431D90E319006DF0F7 /* airport.png */; };
-		E26320471D90E319006DF0F7 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = E26320441D90E319006DF0F7 /* bullet.png */; };
-		E26320481D90E319006DF0F7 /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = E26320451D90E319006DF0F7 /* monster.png */; };
+		E2D8B6021D92866200347424 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D8B6011D92866200347424 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E20ADCA91D93AFF000821976 /* BuyAirportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyAirportViewController.h; sourceTree = "<group>"; };
+		E20ADCAA1D93AFF000821976 /* BuyAirportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyAirportViewController.m; sourceTree = "<group>"; };
+		E20ADCAC1D93C70C00821976 /* LYScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYScrollView.h; sourceTree = "<group>"; };
+		E20ADCAD1D93C70C00821976 /* LYScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYScrollView.m; sourceTree = "<group>"; };
 		E26320221D90D87E006DF0F7 /* gameTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gameTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26320261D90D87E006DF0F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E26320281D90D87E006DF0F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E26320291D90D87E006DF0F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E263202B1D90D87E006DF0F7 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		E263202D1D90D87E006DF0F7 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		E263202E1D90D87E006DF0F7 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		E26320311D90D87E006DF0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -34,9 +36,8 @@
 		E26320381D90D87E006DF0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E26320401D90E244006DF0F7 /* MyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		E26320411D90E244006DF0F7 /* MyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		E26320431D90E319006DF0F7 /* airport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airport.png; sourceTree = "<group>"; };
-		E26320441D90E319006DF0F7 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
-		E26320451D90E319006DF0F7 /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster.png; sourceTree = "<group>"; };
+		E2D8B6001D92866200347424 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		E2D8B6011D92866200347424 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,14 +72,16 @@
 			children = (
 				E26320281D90D87E006DF0F7 /* AppDelegate.h */,
 				E26320291D90D87E006DF0F7 /* AppDelegate.m */,
-				E263202B1D90D87E006DF0F7 /* art.scnassets */,
 				E263202D1D90D87E006DF0F7 /* GameViewController.h */,
 				E263202E1D90D87E006DF0F7 /* GameViewController.m */,
+				E2D8B6001D92866200347424 /* HomeViewController.h */,
+				E2D8B6011D92866200347424 /* HomeViewController.m */,
+				E20ADCA91D93AFF000821976 /* BuyAirportViewController.h */,
+				E20ADCAA1D93AFF000821976 /* BuyAirportViewController.m */,
+				E20ADCAC1D93C70C00821976 /* LYScrollView.h */,
+				E20ADCAD1D93C70C00821976 /* LYScrollView.m */,
 				E26320401D90E244006DF0F7 /* MyScene.h */,
 				E26320411D90E244006DF0F7 /* MyScene.m */,
-				E26320431D90E319006DF0F7 /* airport.png */,
-				E26320441D90E319006DF0F7 /* bullet.png */,
-				E26320451D90E319006DF0F7 /* monster.png */,
 				E26320301D90D87E006DF0F7 /* Main.storyboard */,
 				E26320331D90D87E006DF0F7 /* Assets.xcassets */,
 				E26320351D90D87E006DF0F7 /* LaunchScreen.storyboard */,
@@ -153,12 +156,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E263202C1D90D87E006DF0F7 /* art.scnassets in Resources */,
-				E26320471D90E319006DF0F7 /* bullet.png in Resources */,
 				E26320371D90D87E006DF0F7 /* LaunchScreen.storyboard in Resources */,
 				E26320341D90D87E006DF0F7 /* Assets.xcassets in Resources */,
-				E26320461D90E319006DF0F7 /* airport.png in Resources */,
-				E26320481D90E319006DF0F7 /* monster.png in Resources */,
 				E26320321D90D87E006DF0F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,9 +170,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E26320421D90E244006DF0F7 /* MyScene.m in Sources */,
+				E20ADCAB1D93AFF000821976 /* BuyAirportViewController.m in Sources */,
 				E263202A1D90D87E006DF0F7 /* AppDelegate.m in Sources */,
 				E263202F1D90D87E006DF0F7 /* GameViewController.m in Sources */,
+				E2D8B6021D92866200347424 /* HomeViewController.m in Sources */,
 				E26320271D90D87E006DF0F7 /* main.m in Sources */,
+				E20ADCAE1D93C70C00821976 /* LYScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +324,7 @@
 				E263203D1D90D87E006DF0F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
