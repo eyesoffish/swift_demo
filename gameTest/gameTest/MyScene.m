@@ -59,7 +59,7 @@ BOOL isBegin = YES;
 //懒加载nstimer
 - (NSTimer *)timer{
     if(!_timer){
-        _timer = [NSTimer scheduledTimerWithTimeInterval:0.2 target:self selector:@selector(fireToKill) userInfo:nil repeats:YES];
+        _timer = [NSTimer scheduledTimerWithTimeInterval:0.15 target:self selector:@selector(fireToKill) userInfo:nil repeats:YES];
     }
     return _timer;
 }
